@@ -2,7 +2,7 @@ name: Deploy to Beta Environment
 'on':
   push:
     branches:
-      - main
+      - development
 jobs:
   Beta-Deployment:
     runs-on: ubuntu-latest
