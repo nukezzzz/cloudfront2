@@ -82,4 +82,4 @@ jobs:
               ]
             }
       env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+         SLACK_BOT_TOKEN: ${{ secrets.SLACK_WEBHOOK_URL }}
